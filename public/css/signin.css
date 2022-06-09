@@ -1,0 +1,25 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background: #135dbe;
+    background: linear-gradient(to right, #135dbe, #48b6ff);
+}
+  
+.btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+}
+  
+.btn-google {
+    color: white !important;
+    background-color: #ea4335;
+}
+  
+.btn-facebook {
+    color: white !important;
+    background-color: #3b5998;
+}

@@ -1,0 +1,219 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    font-family: "Open Sans";
+}
+
+#leftArea {
+    background: rgb(245, 245, 245);
+    height: 100vh;
+    padding: 0px;
+    border-right: 1px solid rgb(220, 220, 220);
+}
+
+.profileBlock {
+    background: rgb(33, 138, 255);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+}
+
+#profileImg {
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 60px;
+    height: 60px;
+    margin-right: 1vw;
+    float: left;
+}
+
+#profileName {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+}
+ 
+a:hover {
+    text-decoration: underline;
+ }
+
+.buttons {
+    height: 50px;
+}
+
+#btnAddChat {
+    background: rgb(245, 245, 245);
+    height: 100%;
+    width: 50%;
+    border: none;
+    border-right: 1px solid rgb(220, 220, 220);
+    border-bottom: 1px solid rgb(220, 220, 220);
+    color: rgb(33, 138, 255);
+    font-size: 18px;
+}
+
+#btnSignOut {
+    background: rgb(245, 245, 245);
+    height: 100%;
+    width: 50%;
+    float: right;
+    border: none;
+    border-right: 1px solid rgb(220, 220, 220);
+    border-bottom: 1px solid rgb(220, 220, 220);
+    color: rgb(33, 138, 255);
+    font-size: 18px;
+}
+
+#roomList {
+    height: calc(100% - 150px);
+    width: 100%;
+    overflow-y: scroll;
+}
+
+#roomList::-webkit-scrollbar {
+    display: none;
+}
+
+#roomList {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.btnChatRoom {
+    background: rgb(245, 245, 245);
+    height: 80px;
+    width: 100%;
+    display: block;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    text-align: left;
+    line-height: 80px;
+    text-indent: 8%;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#rightArea {
+    background: rgb(240, 240, 240);
+    height: 100vh;
+    padding: 0px;
+}
+
+.chatHeader {
+    background: rgb(230, 230, 230);
+    height: 70px;
+    line-height: 70px;
+}
+
+#roomName {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    float: left;
+    padding-left: 2vw;
+}
+
+#btnAddMember {
+    background: rgb(33, 138, 255);
+    height: 100%;
+    width: 80px;
+    float: right;
+    border: none;
+    color: rgb(245, 245, 245);
+}
+
+.chatArea {
+    height: calc(100% - 140px);
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.chatArea::-webkit-scrollbar {
+    display: none;
+}
+
+.chatArea {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.textBox {
+    height: 70px;
+}
+
+.leftName {
+    display: block;
+    float: left;
+    clear: both;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.rightName {
+    display: block;
+    float: right;
+    clear: both;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.leftMsg {
+    display: block;
+    float: left;
+    clear: both;
+    margin-bottom: 4px;
+    margin-left: 12px;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.rightMsg {
+    display: block;
+    float: right;
+    clear: both;
+    margin-bottom: 4px;
+    margin-right: 12px;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    background: rgb(33, 138, 255);
+    color: rgb(255, 255, 255);
+}
+
+#inputText {
+    background: rgb(230, 230, 230);
+    border: none;
+    outline: none;
+    height: 100%;
+    width: calc(100% - 100px);
+    line-height: 70px;
+    padding-left: 2vw;
+}
+
+#btnSend {
+    background: rgb(33, 138, 255);
+    height: 100%;
+    width: 100px;
+    float: right;
+    border: none;
+    color: rgb(245, 245, 245);
+}
