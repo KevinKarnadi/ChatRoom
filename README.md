@@ -63,6 +63,6 @@ The program is written in HTML, CSS, JavaScript, and is hosted by using Firebase
    - Change your profile picture by uploading it from your computer.
    - To save your changes, press the "Save Settings" button.
    
-### Screenshots
+## Screenshots
 
 ![image](https://user-images.githubusercontent.com/86511372/173043119-554de779-dd79-47f8-9375-bf8dbd691aff.png)
